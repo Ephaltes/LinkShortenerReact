@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background : linear-gradient(to top right,hotpink, darkblue);
+}
+html, body {
+    height: 100%;
+}
