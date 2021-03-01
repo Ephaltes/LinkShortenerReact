@@ -19,7 +19,7 @@ const ShortenUrlForm = () =>
         if(sluge || sluge.length > 0)
             custom=true;
 
-        axios.post('https://api.ephaltes.de/api/Link',{
+        axios.post('http://localhost:5080/api/Link',{
             link:link,
             sluge:sluge,
             customsluge:custom

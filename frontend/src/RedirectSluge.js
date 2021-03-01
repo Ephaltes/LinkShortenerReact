@@ -10,7 +10,7 @@ const RedirectSluge = () => {
     const sluge = useParams().sluge;
 
     useEffect(() => {
-        axios.get('https://api.ephaltes.de/api/Link/'+sluge)
+        axios.get('http://localhost:5080/api/Link/'+sluge)
             .then(res => {
                 window.location.assign(res.data.data)
             },() => {
